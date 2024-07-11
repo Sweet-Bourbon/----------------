@@ -1,0 +1,228 @@
+@font-face {
+    font-family: "Jost";
+    src: url("../fonts/Jost-ExtraBold.woff2") format("woff2");
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Jost";
+    src: url("../fonts/Jost-Bold.woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Jost";
+    src: url("../fonts/Jost-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+.contacts{
+    font-family: "Jost";
+    width: 1239.76px;
+    height: 679.91px;
+    position: relative;
+    top: 440px;
+    left: 100px;
+}
+.contacts_logo{
+    width: 307px;
+    height: 122px;
+}
+.contacts p{
+    margin:0 ;
+    width: 558px;
+    height: 160px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    color: #64646A;
+    position: absolute;
+    top: 162px;
+}
+.contact_alowishus{
+    width: 364px;
+    height: 320px;
+    position: absolute;
+    right: 49.24px;
+    top: 20px;
+}
+.contact_alowishus h3{
+    width: 364px;
+    height: 50px;    
+    margin: 0;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+    color: #1B1B1D;
+}
+.email_svg{
+    position: absolute;
+    top: 80px;
+    width: 60px;
+    height: 60px;
+    box-shadow: 0px 12px 30px 0px #CDD1D647;
+    border-radius: 50%;
+}
+.email_svg svg{
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+}
+.contact_alowishus p{
+    width: 252px;
+    height: 44px;
+    position: absolute;
+    top: 88px;
+    left: 84px;
+}
+.phone_svg{
+    position: absolute;
+    top: 170px;
+    width: 60px;
+    height: 60px;
+    box-shadow: 0px 12px 30px 0px #CDD1D647;
+    border-radius: 50%;
+}
+.phone_svg svg{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+.contact_alowishus p + p{
+    position: absolute;
+    top: 178px;
+    left: 84px;
+}
+.contact_alowishus ul{
+    width: 312px;
+    height: 60px;
+    display: inline-flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 260px;
+}
+.contact_alowishus li{
+    padding-right: 84px;
+}
+.contact_alowishus button{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 12px 30px 0px #CDD1D647;
+    border-radius: 50%;
+    border: 0;
+    padding: 0;
+}
+.contact_alowishus button:hover{
+    border: 3px solid #1B1B1D;
+}
+.contact_alowishus button svg{
+    width: 30px;
+    height: 30px;
+}
+.store_locations{
+    width: 1237.65px;
+    height: 250px;
+    position: absolute;
+    left: 2.11px;
+    bottom: 0;
+}
+.store_locations h3{
+    width: 296px;
+    height: 50px;
+    margin: 0;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+    color: #1B1B1D;
+}
+.store_locations p{
+    width: 558px;
+    height: 80px;
+    position: absolute;
+    top:80px;
+}
+.store_locations a{
+    width: 187px;
+    height: 30px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration: none;
+    color:#1B1B1D;
+    text-transform: uppercase;
+    position: absolute;
+    white-space:nowrap;
+    top: 190px;
+}
+.store_locations a:hover{
+    transform: translateX(20px);
+}
+.store_locations svg{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+}
+.store_locations h4{
+    width: 347px;
+    height: 50px;
+    margin: 0;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+    color: #1B1B1D;
+    position: absolute;
+    right: 66px;
+    top: 0;
+}
+.store_locations input{
+    padding: 30px;
+    box-sizing: border-box;
+    border: none;
+    color: #64646A;
+    width: 413px;
+    height: 70px;
+    border-radius: 65px;
+    box-shadow: 0px 12px 30px 0px #CDD1D647;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    opacity: 70%;
+}
+.store_locations button{
+    width: 173px;
+    height: 70px;
+    border-radius: 126px;
+    border: 0;
+    padding: 0;
+    background-color: #1B1B1D;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    position: absolute;
+    top: 180px;
+    right: 240px;
+    transition: background-color 0.4s, box-shadow 0.2s 0.3s;
+}
+.store_locations button:hover{
+    color: #1B1B1D;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 0 2px #FFFFFF, 0 0 0 4px #1B1B1D;
+}
+@media (max-width: 480px) {
+    .contacts{
+        left: 50px;
+    }
+}

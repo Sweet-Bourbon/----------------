@@ -1,0 +1,259 @@
+@font-face {
+    font-family: "Jost";
+    src: url("../fonts/Jost-ExtraBold.woff2") format("woff2");
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Jost";
+    src: url("../fonts/Jost-Bold.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Jost";
+    src: url("../fonts/Jost-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    margin: 0;
+}
+.head{
+    font-family: "Jost";
+    width: 1440px;
+    height: 1046px;
+    background-color: #EEEFF1;
+}
+.header_menu{
+    font-weight: 500;
+    box-sizing: border-box;
+    width: 1240px;
+    height: 56px;
+    position: relative;
+    top: 24px;
+    left: 100px;
+}
+.header_logo{
+    width: 126px;
+    height: 50px;
+    position: absolute;
+    top: 3px;
+}
+.nav{
+    width: 756px;
+    height: 56px;
+    position: absolute;
+    left: 484px;
+}
+.nav ul{
+    width: 432px;
+    height: 22px;
+    position: absolute;
+    top: 17px;
+    display: inline-flex;
+    list-style: none;
+    margin: 0px;
+    padding-left: 0px;
+}
+.nav li{
+    padding-right: 40px;
+    white-space:nowrap;
+}
+.nav a{
+    font-size: 15px;
+    line-height: 21.68px;
+    text-decoration: none;
+    color:#1B1B1D;
+}
+.nav a:hover {
+    border-bottom: 1px solid #1B1B1D;
+   }
+.buy_gift{
+    width: 208px;
+    height: 56px;
+    border-radius: 63px;
+    padding: 0px;
+    border: 0px;
+    background-color: #1B1B1D;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    position: absolute;
+    right: 0;
+    font-size: 15px;
+    line-height: 26px;
+    transition: background-color 0.4s, box-shadow 0.2s 0.3s;
+}
+.buy_gift:hover{
+    color: #1B1B1D;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 0 2px #FFFFFF, 0 0 0 4px #1B1B1D;
+}
+.basket{
+    width: 56px;
+    height: 56px;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 30px 60px 0px #A3A8B226;
+    color:#FFFFFF;
+    position: absolute;
+    left: 472px;
+}
+.basket:hover{
+    border: 3px solid #1B1B1D;
+}
+.basket svg{
+    width: 20px; 
+    height: 20px; 
+    fill: none;
+}
+.coffee_main_head{
+    width: 1240px;
+    height: 712px;
+    position: relative;
+    top: 204px;
+    left: 100px;
+}
+.coffee_info{
+    width: 626px;
+    height: 650px;
+}
+.coffee_info h1{
+    position: absolute;
+    margin: 0;
+    width: 597px;
+    height: 420px;
+    font-weight: 800;
+    font-size: 124px;
+    line-height: 140px;
+    color: #1B1B1D;
+}
+.coffee_info p{
+    margin: 0;
+    position: absolute;
+    top: 450px;
+    width: 530px;
+    height: 70px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34.68px;
+    color: #64646A;
+}
+.app_coffee{
+    width: 376px;
+    height: 70px;
+    position: absolute;
+    top: 580px;
+}
+.app_coffee button{
+    width: 225px;
+    height: 70px;
+    border-radius: 126px;
+    border: 0;
+    padding: 0;
+    background-color: #1B1B1D;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    transition: background-color 0.4s, box-shadow 0.2s 0.3s;
+}
+.app_coffee button:hover{
+    color: #1B1B1D;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 0 2px #FFFFFF, 0 0 0 4px #1B1B1D;
+}
+.app_coffee a{
+    width: 125px;
+    height: 26px;
+    position: absolute;
+    top: 22px;
+    right: 0;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26.01px;
+    text-transform: uppercase;
+    white-space:nowrap;
+    color: #1B1B1D;
+    text-decoration: none;
+    border-bottom: 1px solid #1B1B1D;
+}
+.app_coffee a:hover{
+    transform: translateY(-10px);
+}
+.coffee_info_images{
+    width: 680.25px;
+    height: 712px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url("../images/coffee_back.png");
+    background-position-x: -32px;
+    background-position-y: -30px;
+    background-size: 104%;
+}
+.coffee_info_images > svg{
+    width: 480px;
+    height: 562.5px;
+    fill: none;
+    position: absolute;
+    top: 92px;
+    left: 129.91px;
+}
+.coffee_year_image{
+    width: 139.94px;
+    height: 113px;
+    position: absolute;
+    top: 31px;
+    right: 33.04px;
+}
+.rectangle_for_eval{
+    width: 272.1px;
+    height: 140px;
+    border-radius: 24px;
+    position: absolute;
+    top: 391px;
+    left: 42.76px;
+    background-color: #FFFFFF;
+}
+.rectangle_for_eval ul{
+    display: inline-flex;
+    list-style: none;
+    margin: 0px;
+    padding-left: 0px;
+    position: absolute;
+    top: 12px;
+    right: 68.78px;
+}
+.rectangle_for_eval svg{
+    width: 36px;
+    height: 36px;
+}
+.rectangle_for_eval p{
+    margin: 0;
+    font-weight: 400;
+    width: 232px;
+    height: 52px;
+    font-size: 19px;
+    line-height: 26px;
+    position: absolute;
+    top: 68px;
+    left: 23.32px;
+    color: #64646A;
+}
+
+@media (max-width: 480px) {
+    .header_menu{
+        position: absolute;
+        left: 50px;
+    }
+    .nav{
+        left: 400px;
+    }
+    .coffee_main_head{
+        left: 30px;
+    }
+}

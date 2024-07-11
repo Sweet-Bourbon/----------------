@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "Jost";
+    src: url("../fonts/Jost-ExtraBold.woff2") format("woff2");
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Jost";
+    src: url("../fonts/Jost-Bold.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Jost";
+    src: url("../fonts/Jost-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}.order{
+    width: 1233px;
+    height: 471.27px;
+    position: relative;
+    top: 240px;
+    left: 100px;
+    font-family: "Jost";
+}
+.order_image{
+    width: 680px;
+    height: 471.21px;
+}
+.order_eclipse1{
+    width: 354.01px;
+    height: 44.57px;
+    position: absolute;
+    top: 401.94px;
+    left: 163px;
+}
+.order_eclipse2{
+    width: 207.99px;
+    height: 28.06px;
+    position: absolute;
+    top: 371.4px;
+    left: 24.62px;
+
+}
+.order_eclipse3{
+    width: 207.99px;
+    height: 28.06px;
+    position: absolute;
+    top: 371.4px;
+    left: 399px;
+}
+.order h2{
+    margin: 0;
+    width: 512px;
+    height: 140px;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 70px;
+    color: #1B1B1D;
+    position: absolute;
+    top: 15.63px;
+    right: 0;
+}
+.order p{
+    margin: 0;
+    width: 512px;
+    height: 140px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34.68px;
+    color: #64646A;
+    position: absolute;
+    top: 185.63px;
+    right: 0;
+}
+.order button{
+    position: absolute;
+    right: 322px;
+    bottom: 0px;
+    width: 191px;
+    height: 70px;
+    border: 0;
+    padding: 0;
+    border-radius: 126px;
+    background-color: #1B1B1D;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    transition: background-color 0.4s, box-shadow 0.2s 0.3s;
+}
+.order button:hover{
+    color: #1B1B1D;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 0 2px #FFFFFF, 0 0 0 4px #1B1B1D;
+}
+@media (max-width: 480px) {
+    .order{
+        left: 50px;
+    }
+}

@@ -1,0 +1,207 @@
+@font-face {
+    font-family: "Jost";
+    src: url("../fonts/Jost-ExtraBold.woff2") format("woff2");
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Jost";
+    src: url("../fonts/Jost-Bold.woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Jost";
+    src: url("../fonts/Jost-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+.feedback{
+    width: 1240px;
+    height: 988px;
+    position: relative;
+    top: 340px;
+    left: 100px;
+    font-family: "Jost";
+}
+.feedback h2{
+    width: 454px;
+    height: 140px;
+    margin: 0;
+    text-align: center;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 70px;
+    color: #1B1B1D;
+    position: absolute;
+    left: 393px;
+}
+.rating{
+    width: 300px;
+    height: 60px;
+    position: relative;
+    top: 180px;
+    left: 470px;
+}
+.rating h3{
+    margin: 0;
+    width: 65px;
+    height: 40px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 40px;
+    color: #1B1B1D;
+    position: absolute;
+    top: 10px;
+}
+.feedback ul{
+    width: 120px;
+    height: 24px;
+    display: inline-flex;
+    list-style: none;
+    margin: 0px;
+    padding-left: 0px;
+}
+.rating ul{
+    position: absolute;
+    left: 89px;
+}
+.rating svg{
+    width: 24px;
+    height: 24px;
+}
+.rating p{    
+    margin: 0;
+    width: 211px;
+    height: 28px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #64646A;
+    position: absolute;
+    top: 32px;
+    left: 89px;
+}
+.comments{
+    width: 1240px;
+    height: 648px;
+    position: absolute;
+    bottom: 0px;
+}
+.comments button{
+    width: 60px;
+    height: 60px;
+    border: 0;
+    padding: 0;
+    border-radius: 50%;
+    box-shadow: 0px 12px 30px 0px #CDD1D647;
+    background-color: #FFFFFF;
+}
+.comments button:hover{
+    border: 3px solid #1B1B1D;
+}
+.comments svg{
+    width: 30px;
+    height: 30px;
+}
+.left{
+    position: absolute;
+    top: 294px;
+    left: 5.54px;
+}
+.right{
+    position: absolute;
+    top: 294px;
+    right: 5.54px;
+}
+.user1{
+    width: 499.46px;
+    height: 648px;
+    border-radius: 16px;
+    background-color: linear-gradient(142.42deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0px 20px 60px 0px #A3A8B226;
+    /*position: absolute;
+    bottom: 0px;
+    left: 105.54px;*/
+}
+.user1_back{
+    width: 499.46px;
+    height: 324px;
+    border-radius: 16px 16px 0px 0px;
+    top: 0;
+    right: 0;
+    background-image: url("../images/user1.jpg");
+    background-size: cover;
+    box-shadow: 0px 20px 60px 0px #A3A8B226;
+}
+.comments h3{
+    margin: 0;
+    width: 337px;
+    height: 30px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #1B1B1D;
+    position: absolute;
+    top: 364px;
+    left: 42.69px;
+}
+.user1 svg{
+    width: 24px;
+    height: 24px;
+}
+.user1 ul{
+    position: absolute;
+    top: 367px;
+    left: 259.69px;
+}
+.comments p{
+    margin: 0;
+    width: 387px;
+    height: 180px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1B1B1D;
+    position: absolute;
+    top: 426px;
+    left: 42.69px;
+}
+.user2{
+    width: 499.46px;
+    height: 648px;
+    border-radius: 16px;
+    background-color: linear-gradient(142.42deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0px 20px 60px 0px #A3A8B226;
+    /*position: absolute;
+    bottom: 0px;
+    right: 105.54px;*/
+}
+.user2_back{
+    width: 499.46px;
+    height: 324px;
+    border-radius: 16px 16px 0px 0px;
+    top: 0;
+    right: 0;
+    background-image: url("../images/user2.jpg");
+    background-size: cover;
+    box-shadow: 0px 20px 60px 0px #A3A8B226;
+}
+.user2 ul{
+    position: absolute;
+    top: 367px;
+    left: 189.69px;
+}
+.user2 svg{
+    width: 24px;
+    height: 24px;
+}
+.swiper-wrapper{
+    position: absolute;
+    left: 50px;
+}
+@media (max-width: 480px) {
+    .feedback{
+        left: 50px;
+    }
+}
